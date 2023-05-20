@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  transition: all 1s ease;
+}
+
+li {
+  position: relative;
+}
+
+p {
+  margin: -2.5% 0;
+}
+
+.slider-container {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+
+}
+
+.slider-image {
+  width: 300px;
+  height: 600px;
+}
+
+.discover-button {
+  position: absolute;
+  height: 30px;
+  width: 118px;
+  top: 510px;
+  left: 90px;
+  background-color: rgba(194, 0, 45, 255);
+  color: white;
+  padding: 9px;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-texts {
+  position: absolute;
+  top: 182px;
+  left: 0;
+  right: 0;
+  width: 300px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.slider-texts:nth-child(1) {
+  margin-top: 17px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.slider-caption {
+  text-align: center;
+  font-size: 24px;
+  display: block;
+}
+
+.logo-image {
+  position: absolute;
+  height: 230px;
+  width: 230px;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  z-index: 1;
+}
+
+.consumption-text {
+  height: 30px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slider-consumption {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  background-color: black;
+  z-index: 2;
+  visibility: hidden;
+  padding: 10px;
+}
+
+.see-consumption-button {
+  position: absolute;
+  height: 30px;
+  width: 118px;
+  top: 570px;
+  left: 213px;
+  color: white;
+  font-size: 10px;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  height: 30px;
+  width: 118px;
+  top: 570px;
+  left: 240px;
+  color: white;
+  font-size: 9px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.close-button:hover {
+  background-color: rgb(112, 9, 9);
+}
